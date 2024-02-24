@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.background-video video {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.heading {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  margin-top: 20px;
+  color: aliceblue;
+}
+
+.main {
+  margin-top: 50px;
+  width: 200px;
+  margin: auto;
+}
+.planetswiki{
+  background-color: black;
+  color: aliceblue;
+}
+.Page{
+  opacity: 0.4;
+}
